@@ -87,5 +87,7 @@ alias zshconfig="nano ~/.zshrc"
 alias ohmyzsh="cd ~/.oh-my-zsh"
 alias sites="cd ~/Sites"
 alias lanip="ifconfig | grep 'inet ' | grep -v 127.0.0.1 | cut -d\  -f2"
+alias grit='git grep -3 -n -F --heading -p'
+alias grep='grep -rl'
 
 . ~/.zsh_privates
