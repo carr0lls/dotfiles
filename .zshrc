@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/cyu/.oh-my-zsh
@@ -84,10 +84,17 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias zshconfig="nano ~/.zshrc"
+alias zshprivates="nano ~/.zsh_privates"
 alias ohmyzsh="cd ~/.oh-my-zsh"
 alias sites="cd ~/Sites"
 alias lanip="ifconfig | grep 'inet ' | grep -v 127.0.0.1 | cut -d\  -f2"
 alias grit='git grep -3 -n -F --heading -p'
 alias grep='grep -rl'
+alias gut='git'
+alias gst='git status'
+alias gdiff='git diff'
+alias gpull='git pull'
+alias gpush='git push'
+alias gcm='git co develop'
 
 . ~/.zsh_privates
